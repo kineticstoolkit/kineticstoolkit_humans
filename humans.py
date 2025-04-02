@@ -263,7 +263,7 @@ def infer_knee_joint_center_davis1991(
     side: str = "R",
 ) -> np.ndarray:
     """
-    Infer knee joint center based on knee width measurement.
+    Infer knee joint centre based on the CGM without knee alignment device.
 
     Davis, R.B., Õunpuu, S., Tyburski, D., Gage, J.R., 1991. A gait analysis
     data collection and reduction technique. Human Movement Science 10,
